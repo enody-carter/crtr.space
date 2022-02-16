@@ -11,7 +11,8 @@
 	</head>
 	<body>
 		<header>
-			{{ .Site.Params.headerText }}
+			<a href="{{ .Site.BaseURL }}">{{ .Site.Params.headerText }}</a>
+			<a id="about" href="{{ relURL "about" }}">about</a>
 		</header>
 		<main>
 			{{ block "main" . }}

@@ -13,6 +13,13 @@ body {
 header {
     padding-top: 10px;
     font-size: x-large;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header #about {
+    font-size: medium;
 }
 
 main {
