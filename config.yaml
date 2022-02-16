@@ -1,0 +1,6 @@
+baseURL: https://crtr.space/
+languageCode: en-us
+title: carter
+
+params:
+  headerText: crtr.space
