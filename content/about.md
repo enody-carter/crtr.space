@@ -14,4 +14,4 @@ I can be reached at
 
 me \[at\] crtr \[dot\] email
 
-This site is intentionally minimal. It has no tracking scripts or external resources and is currently hosted by [sourcehut pages](https://srht.site). Its source is available [here](https://git.sr.ht/~carterpeterson/frontend).
+This site is intentionally minimal. It has no tracking scripts or external resources and is currently hosted by [DigitalOcean App Platform](https://www.digitalocean.com/products/app-platform). Its source is available [here](https://github.com/enody-carter/crtr.space).

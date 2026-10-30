@@ -1,0 +1,19 @@
+name: crtr-space
+region: nyc
+domains:
+  - domain: crtr.space
+    type: PRIMARY
+    zone: crtr.space
+static_sites:
+  - name: frontend
+    environment_slug: hugo
+    github:
+      repo: enody-carter/crtr.space
+      branch: main
+      deploy_on_push: true
+    build_command: hugo
+    output_dir: public
+    envs:
+      - key: HUGO_VERSION
+        value: 0.143.1
+        scope: BUILD_TIME
